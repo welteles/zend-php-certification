@@ -97,3 +97,8 @@
 * Handling Exceptions
 * Errors
 * Throwables
+
+# Tests
+```bash
+sudo docker-compose exec phpunit ./vendor/bin/phpunit --testdox tests/
+```

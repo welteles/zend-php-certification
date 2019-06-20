@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  phpunit:
+    container_name: phpcli
+    volumes:
+        - ./:/var/www/
+    build:
+      .
+    tty: true
